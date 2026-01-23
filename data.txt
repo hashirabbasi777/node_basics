@@ -1,0 +1,2 @@
+Hello, this text is coming from a file.
+Node.js can read files!
