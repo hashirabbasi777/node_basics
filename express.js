@@ -43,7 +43,7 @@ app.post("/users", (req, res) => {
   users.push(newUser);
 
   res.json({
-    message: "User created successfully",
+    message: "User created successfully from the Express server",
     user: newUser,
   });
 });
