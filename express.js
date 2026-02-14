@@ -17,12 +17,26 @@ let users = [
 ];
 
 
+let products = [
+  { id: 1, name: "Laptop", price: 999 },
+  { id: 2, name: "Phone", price: 499 },
+];
+
+
 
 // Users route
 app.get("/users", (req, res) => {
   res.json({
     success: true,
     users,
+  });
+});
+
+
+app.get("/products", (req, res) => {
+  res.json({
+    success: true,
+    products,
   });
 });
 
