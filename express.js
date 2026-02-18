@@ -8,6 +8,7 @@ app.use(express.json());
 let users = [
   { id: 1, name: "Ali", email: "ali@example.com" },
   { id: 2, name: "Sara", email: "sara@example.com" },
+  { id: 3, name: "John", email: "john@example.com"},
 ];
 
 // ========== ROUTES ==========
